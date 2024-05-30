@@ -23,36 +23,49 @@
     eprint=false]{biblatex}
 \addbibresource{../references/bibliography.bib}
 
+\usepackage{graphicx}
+\graphicspath{ {../images/} }
 
-\title{Ethik im Umgang mit Daten}
-\author{Name des Autors}
+\title{Ethischer Umgang mit Daten im Zusammenhang mit der KI}
+\author{Max Brügger}
 \date{\today}
 
+
+\newcommand{\zitieren}[1]{ - \citeauthor{#1} \citeyear{#1}}
 
 \begin{document}
 
 \maketitle
 
-\abstract{
-    Dies ist eine Vorlage für eine Maturarbeit in der Informatik am Gymnasium Muttenz. Sie dient dazu, die Arbeit schnell und einfach zu starten und sollte einen guten Überblick über die Arbeit bieten.
-}
-
 \tableofcontents
 
-\chapter{Einleitung}
+\section{Einleitung}
 
-Hier kommt die Einführung. Der Text hier sollte eigentlich noch viel länger sein, so das hier nicht so merkwürdige Umbrüche entstehen.
+In dieser Arbeit befassen wir uns mit dem ethischen Umgang mit Daten im Zusammenhang mit der KI (künstliche Intelligenz). Zu diesem Thema  recherchieren wir im Internet mit KI-Programmen, erstellen Notizen und verfassen eine Arbeit zu einer Frage bezüglich der Ethik der KI, die wir uns stellen. Ich habe mich entschieden, das Thema KI in der Medizin zu beleuchten und die Chancen und Gefahren aufzuzeigen. 
+Um die KI  besser zu verstehen, werde ich vorab kurz die KI und ihre Einsatzgebiete definieren, aufzeigen wie sie funktioniert und trainiert werden kann und einen Miniexkurs in die Geschichte der KI machen und die allgemeinen ethischen Probleme aufzeigen bevor ich im Hauptteil auf die KI in der Medizin eingehen werde.\parencite{ai-wikipedia}
 
-Ich kann weitere Kapitel auch importieren.
+\zitieren{ai-wikipedia}
 
-\input{chap_methode.tex}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.25\textwidth]{bild.png}
+    \caption{Ein erstes Bild}
+\end{figure}
 
-\section{Etwas mit Quellen}
 
-Etwas mit Änderung hier am Ende.
 
-Wenn ich eine Quelle zitieren möchte, kann ich das ganze einfach am Ende des Satzes machen \citep{example}. Oder wie \citet{example} sagt, auch mitten im Text.
+\subsection{Was ist eine KI?}
+dsfasdfasfsadf
 
+\subsection{Wie funktioniert KI?}
+lflajsdjflasdlkfjafjfas\\
+asdflasdflaskdfjöasfjasfj
+
+
+
+\subsection{Wo findet KI}
+
+\nocite{*}
 \printbibliography
 
 \end{document}
