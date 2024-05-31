@@ -5,10 +5,6 @@
       "name": "quick",
       "tools": ["latexmk"]
     },
-    {
-      "name": "full",
-      "tools": ["latexmk", "biber", "latexmk", "latexmk"]
-    }
   ],
   "latex-workshop.latex.tools": [
     {
@@ -28,12 +24,6 @@
         "TEXINPUTS": ".:%WORKSPACE_FOLDER%/documents/includes//:",
         "TEXMFHOME": "%WORKSPACE_FOLDER%/documents/includes"
       }
-    },
-    {
-      "name": "bibtex",
-      "command": "bibtex",
-      "args": ["%DOCFILE%"],
-      "env": {}
     },
     {
       "name": "biber",
